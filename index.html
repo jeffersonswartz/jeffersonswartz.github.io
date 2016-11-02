@@ -1,16 +1,7 @@
 <html>
 
 <head>
-          <title>Material Design-Angular</title>
-          <!--
-                    <link rel="stylesheet" href="css/angular-material.min.css"></link>
-                    <script src="js/angular-animate.min.js"></script>
-                    <script src="js/angular-aria.min.js"></script>
-                    <script src="js/angular-material.min.js"></script>
-                    <script src="js/angular-messages.min.js"></script>
-                    <script src="js/angular.min.js"></script>
-                    <script src="js/angularscript.js"></script>
--->
+          <title>Welcome To Jefferson Swartz HomePage</title>
           <script src="js/angular.min.js"></script>
           <script src="js/angular-material.min.js"></script>
           <script src="js/angular-animate.min.js"></script>
@@ -34,78 +25,10 @@
 
 <body ng-app="testApp">
           <div ng-controller="formController as ctrl" >
-		  <md-list>
-		  <md-list-item>
-                    <md-card flex=50 layout-align="center center" >
-                              <h1 style="text-align:center;" md-ink-ripple>Test Form</h1>
-                    </md-card>
-					</md-list-item>
-		</md-list>
-                    <md-card flex=50 layout="row" layout-align="center">
-                              <form name=testForm novalidate>
-                                        <div flex=100 layout="column" layout-align="space-between center">
-                                                  <div flex>
-                                                            <md-input-container>
-                                                                      <label>Name</label>
-                                                                      <input type="text" name="name" ng-model="user.name" ng-bind="ctrl.name" required></input>
-                                                                      <div ng-messages="testForm.name.$error">
-                                                                                <div ng-message="required">You Should Definitely have a name.</div>
-                                                                      </div>
-                                                            </md-input-container>
-
-                                                  </div>
-												  <div flex>
-												   <lx-select ng-model="vm.selectModel.selectedPerson"
-               lx-allow-clear="true"
-               lx-choices="vm.selectPeople"
-               lx-display-filter="true"
-               lx-fixed-label="true"
-               lx-label="Lorem Ipsum">
-        <lx-select-selected>
-            {{ $selected.name }} - {{ $selected.age }}
-        </lx-select-selected>
- 
-        <lx-select-choices>
-            {{ $choice.email }}
-        </lx-select-choices>
-    </lx-select>
-												  </div>
-                                                  <div flex>
-                                                            <md-input-container>
-                                                                      <label>Email</label>
-                                                                      <input type="Email" name="mail" ng-model="user.mail" required></input>
-                                                                      <div ng-messages="testForm.mail.$error">
-                                                                                <div ng-message="required">No E-mail -_- </div>
-                                                                      </div>
-                                                            </md-input-container>
-                                                  </div>
-                                                  <div flex>
-                                                            <md-input-container>
-                                                                      <label>Phone</label>
-                                                                      <input type="text" name="phone" ng-model="user.phone" required></input>
-                                                                      <div ng-messages="testForm.phone.$error">
-                                                                                <div ng-message="required">No Phone ! Seriously!! </div>
-                                                                      </div>
-																	  <md-datepicker 
-               ng-model="myDate" 
-               md-placeholder="Enter date"></md-datepicker>
-                                                            </md-input-container>
-															
-                                                  </div>
-                                                  <div flex>
-                                                            <md-input-container>
-                                                                      <md-button class="md-raised" type=submit>Submit</md-button>
-                                                                      <md-button class="md-raised" type=button ng-click="click();">Lazy !</md-button>
-                                                                      <md-button class="md-raised" type=button ng-click="clear();">Clear !</md-button>
-                                                            </md-input-container>
-                                                  </div>
-												  
-												  
-                                        </div>
-                              </form>
-							   
-                    </md-card>
-          </div>
+			 <div id="cloud-container">
+				<div class="text">Hi.</div>
+			</div>
+		  </div>
 </body>
 
 </html>
