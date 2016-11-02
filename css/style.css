@@ -29,6 +29,21 @@ body{
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+.site{
+	font-size:72px;
+    color: white;
+    text-align:center;
+    position: relative;
+    margin-top: 15%;
+    font-size: 100px;
+    text-align: center;
+
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+}
 
 @keyframes fadein {
     from { opacity: 0; }
